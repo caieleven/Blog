@@ -12,10 +12,8 @@
           <router-link :to="{name: 'Archive'}" class="nav-item">
             <el-link class="nav-item" icon="el-icon-s-management" :underline="false">归档</el-link>
           </router-link>
-<!--          <el-link class="nav-item" icon="el-icon-link" :underline="false">友链</el-link>-->
           <div style="float: right">
             <el-link class="nav-item" icon="el-icon-search" :underline="false" @click="openSearch">搜索</el-link>
-<!--            <el-link class="nav-item" icon="el-icon-warning-outline" :underline="false">关于</el-link>-->
           </div>
         </div>
       </el-col>

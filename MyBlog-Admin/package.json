@@ -2,7 +2,7 @@
   "name": "myblog-admin",
   "version": "1.0.0",
   "description": "A Vue project based on @vue-admin-template.",
-  "author": "Myles <myles.yang@foxmail.com>",
+  "author": "chen <chenbaorun@foxmail.com>",
   "scripts": {
     "dev": "vue-cli-service serve",
     "build:prod": "vue-cli-service build",

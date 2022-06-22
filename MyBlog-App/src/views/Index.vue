@@ -62,6 +62,7 @@ export default {
         categoryId: null
       }
       const keyword = this.$route.params.keyword
+      // 搜索
       if (!keyword) {
         this.$store.dispatch('info/getAttributes')
         this.$store.dispatch('info/getProfile')

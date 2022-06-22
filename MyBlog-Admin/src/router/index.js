@@ -125,16 +125,16 @@ export const constantRoutes = [
     }]
   },
   // 友链
-  {
-    path: '/link',
-    component: Layout,
-    children: [{
-      path: '/link',
-      name: 'Link',
-      component: () => import('@/views/link/index'),
-      meta: { title: '友链', icon: 'link' }
-    }]
-  },
+  // {
+  //   path: '/link',
+  //   component: Layout,
+  //   children: [{
+  //     path: '/link',
+  //     name: 'Link',
+  //     component: () => import('@/views/link/index'),
+  //     meta: { title: '友链', icon: 'link' }
+  //   }]
+  // },
 
   // 404 page must be placed at the end !!!
   { path: '*', redirect: '/404', hidden: true }

@@ -37,6 +37,7 @@
             />
           </div>
           <el-divider content-position="center">END</el-divider>
+          <!--评论区-->
           <div v-if="!(blog.allowComment === 'UNALLOWED')">
             <v-comment
               ref="comment"

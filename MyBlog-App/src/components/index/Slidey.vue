@@ -66,8 +66,11 @@ export default {
     this.setImgLoop()
   },
   methods: {
+    // 获取图片
     getRandomBg() {
-      const lx = ['dongman', 'fengjing']
+      // 分类
+      const lx = ['fengjing']
+      // 博天api，随机壁纸
       const img_api = `https://api.btstu.cn/sjbz/api.php?method=zsy&lx=${lx[Math.floor(Math.random() * lx.length)]}`
       return `${img_api}&_t=${new Date().getTime()}`
     },
@@ -93,6 +96,7 @@ export default {
       this.blogData = data
       if (this.isBlogMode) {
         this.clearImgLoop()
+        // 有背景图片则为背景，没有则继续随机壁纸
         this.bgURL = this.blogData.thumbnail ? this.blogData.thumbnail : this.getRandomBg()
       } else {
         this.setImgLoop()

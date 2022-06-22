@@ -51,7 +51,7 @@
       <el-col :xs="24" :sm="18">
         <el-card class="box-card">
           <div slot="header" class="clearfix" style="height: 28px;line-height: 28px">
-            <span class="cardName">每日数据统计</span>
+            <span class="cardName">数据统计</span>
             <div class="cardName" style="float: right">
               统计日期：
               <el-date-picker
@@ -76,17 +76,17 @@
       </el-col>
       <el-col :xs="24" :sm="6" style="padding: 0">
         <!-- 友链数量 -->
-        <el-col :xs="12" :sm="24">
-          <el-card class="box-card">
-            <div slot="header" class="clearfix">
-              <span class="cardName">友链</span>
-              <router-link :to="{name:'Link'}">
-                <el-button class="cardLink" type="text" icon="el-icon-link" />
-              </router-link>
-            </div>
-            <div class="cardContent">{{ statistic.linkCount }}</div>
-          </el-card>
-        </el-col>
+<!--        <el-col :xs="12" :sm="24">-->
+<!--          <el-card class="box-card">-->
+<!--            <div slot="header" class="clearfix">-->
+<!--              <span class="cardName">友链</span>-->
+<!--              <router-link :to="{name:'Link'}">-->
+<!--                <el-button class="cardLink" type="text" icon="el-icon-link" />-->
+<!--              </router-link>-->
+<!--            </div>-->
+<!--            <div class="cardContent">{{ statistic.linkCount }}</div>-->
+<!--          </el-card>-->
+<!--        </el-col>-->
         <el-col :xs="12" :sm="24">
           <el-card class="box-card">
             <div slot="header" class="clearfix">

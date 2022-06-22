@@ -37,6 +37,7 @@ public class UserController {
 	@ApiOperation("检查用户登录状态")
 	@GetMapping("/login")
 	public R login() {
+		System.out.println("pass it");
 		Authentication auth = userService.getAuth();
 		if (Objects.isNull(auth)) {
 			return RUtils.fail(RS.NOT_LOGIN);

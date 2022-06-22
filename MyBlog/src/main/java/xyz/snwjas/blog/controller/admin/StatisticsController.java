@@ -21,8 +21,6 @@ import java.util.List;
 
 /**
  * Admin Controller
- *
- * @author Myles Yang
  */
 @Validated
 @RestController("AdminStatisticsController")

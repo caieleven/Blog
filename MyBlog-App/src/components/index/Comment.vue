@@ -18,7 +18,7 @@
               ref="popoverEmail"
               placement="top"
               trigger="focus"
-              content="或将收到回复邮件提醒"
+              content="邮箱地址"
             />
             <el-input v-model="email" v-popover:popoverEmail type="email" placeholder="* 邮箱地址" maxlength="127" clearable />
           </el-form-item>
@@ -28,6 +28,7 @@
         </el-form>
       </div>
       <div class="comment-box">
+        <!--头像-->
         <div v-if="showAvatar" class="comment-avatar">
           <el-avatar :size="46" :src="getAvatar(avatar)" />
         </div>
@@ -72,6 +73,7 @@
     <div v-for="(item,index) in commentList" :key="index" class="hbl-child">
       <div class="reply" />
       <div :id="`comment-${item.id}`" class="content">
+        <!--头像显示-->
         <div v-if="showAvatar" class="comment-f avatar">
           <el-avatar :size="46" :src="getAvatar(item.avatar)" />
         </div>
@@ -81,6 +83,7 @@
             <div class="nickname author">
               {{ item.author }}
             </div>
+            <!--标识出作者-->
             <div v-if="item.isAdmin" class="icon author">{{ label }}</div>
             <div class="date">
               {{ item.createTime }}
@@ -90,6 +93,7 @@
 
         <div class="reply-content" v-html="analyzeEmoji(item.content)" />
 
+        <!--回复评论-->
         <div class="reply-content reply-fa">
           <div class="reply-font">
             <span @click="doReply(item.id)">

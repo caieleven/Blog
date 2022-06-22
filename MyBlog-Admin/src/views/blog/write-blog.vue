@@ -131,6 +131,7 @@ export default {
     addImage(pos, $file) {
       const formdata = new FormData()
       formdata.append('file', $file)
+      console.log(formdata)
       uploadAttachment(formdata).then(resp => {
         this.$message.success(resp.message)
         const url = this.baseUrl + resp.data.path
