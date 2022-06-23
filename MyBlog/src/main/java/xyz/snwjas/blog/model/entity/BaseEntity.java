@@ -10,8 +10,6 @@ import java.time.LocalDateTime;
 
 /**
  * 基础实体
- *
- * @author Myles Yang
  */
 @Data
 @EqualsAndHashCode

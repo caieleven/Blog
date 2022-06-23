@@ -8,11 +8,7 @@ import xyz.snwjas.blog.model.PageResult;
 
 import java.util.List;
 
-/**
- * Link Service
- *
- * @author Myles Yang
- */
+
 public interface LinkService {
 
 	/**

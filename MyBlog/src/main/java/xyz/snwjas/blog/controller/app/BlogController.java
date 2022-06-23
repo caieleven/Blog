@@ -33,8 +33,6 @@ import java.util.Objects;
 
 /**
  * Blog Controller
- *
- * @author Myles Yang
  */
 @Validated
 @RestController("AppBlogController")

@@ -53,6 +53,7 @@ export default {
         this.profileSticky = scrollNow >= this.contentTop
       }
     },
+    // 从搜索页面跳转
     $route(to, from) {
       this.searchParams = {
         current: 1,

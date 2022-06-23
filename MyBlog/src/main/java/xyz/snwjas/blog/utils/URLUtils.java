@@ -9,8 +9,6 @@ import java.util.regex.Pattern;
 
 /**
  * URL utils
- *
- * @author Myles Yang
  */
 public class URLUtils {
 

@@ -12,8 +12,6 @@ import xyz.snwjas.blog.model.entity.StatisticsEntity;
  * <p>
  * 统计表（统计每日的数据） Mapper 接口
  * </p>
- *
- * @author Myles Yang
  */
 public interface StatisticsMapper extends BaseMapper<StatisticsEntity> {
 

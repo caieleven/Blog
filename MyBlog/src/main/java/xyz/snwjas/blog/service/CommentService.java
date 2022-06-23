@@ -12,11 +12,6 @@ import xyz.snwjas.blog.model.vo.CommentSimpleVO;
 
 import java.util.List;
 
-/**
- * Comment Service
- *
- * @author Myles Yang
- */
 public interface CommentService {
 
 	/**

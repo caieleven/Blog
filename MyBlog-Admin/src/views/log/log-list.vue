@@ -8,21 +8,21 @@
           <i class="el-icon-s-operation" />
           {{ getType(item.type) }}
         </span>
-        <!-- ip定位 -->
-        <span class="center">
-          <el-popover
-            placement="top"
-            trigger="click"
-            :content="ipLocation || item.ipAddress"
-            width="300"
-            @show="getIpLocation(item.ipAddress)"
-          >
-            <span slot="reference">
-              <i class="el-icon-location-outline" />
-              {{ item.ipAddress }}
-            </span>
-          </el-popover>
-        </span>
+        <!--        &lt;!&ndash; ip定位 &ndash;&gt;-->
+        <!--        <span class="center">-->
+        <!--          <el-popover-->
+        <!--            placement="top"-->
+        <!--            trigger="click"-->
+        <!--            :content="ipLocation || item.ipAddress"-->
+        <!--            width="300"-->
+        <!--            @show="getIpLocation(item.ipAddress)"-->
+        <!--          >-->
+        <!--            <span slot="reference">-->
+        <!--              <i class="el-icon-location-outline" />-->
+        <!--              {{ item.ipAddress }}-->
+        <!--            </span>-->
+        <!--          </el-popover>-->
+        <!--        </span>-->
         <!-- 操作时间 -->
         <span class="right">
           <i class="el-icon-date" />

@@ -6,11 +6,7 @@ import xyz.snwjas.blog.model.vo.StatisticsReportVo;
 import java.time.LocalDateTime;
 import java.util.List;
 
-/**
- * Statistics Service
- *
- * @author Myles Yang
- */
+
 public interface StatisticsService {
 
 	/**

@@ -25,8 +25,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * Option Controller
- *
- * @author Myles Yang
  */
 @Slf4j
 @RestController("AdminOptionsController")

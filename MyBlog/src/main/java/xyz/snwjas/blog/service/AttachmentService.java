@@ -11,8 +11,6 @@ import java.util.List;
 
 /**
  * Attachment Service
- *
- * @author Myles Yang
  */
 public interface AttachmentService {
 

@@ -9,8 +9,6 @@ import java.time.LocalDateTime;
 
 /**
  * 统一响应体
- *
- * @author Myles Yang
  */
 @Data
 @ApiModel("统一响应结果")

@@ -22,8 +22,8 @@ export default {
         author: '作者昵称',
         email: '邮箱地址',
         blogTitle: '所属文章',
-        createTime: '发表时间',
-        ipAddress: 'IP地址'
+        createTime: '发表时间'
+        // ipAddress: 'IP地址'
       }
     }
   },

@@ -25,8 +25,6 @@ import java.util.HashMap;
 
 /**
  * Comment Controller
- *
- * @author Myles Yang
  */
 @Validated
 @RestController("AppCommentController")

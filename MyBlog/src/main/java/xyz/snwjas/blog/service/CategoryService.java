@@ -10,8 +10,6 @@ import java.util.List;
 
 /**
  * Category Service
- *
- * @author Myles Yang
  */
 public interface CategoryService {
 

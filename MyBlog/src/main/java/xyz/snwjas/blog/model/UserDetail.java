@@ -10,8 +10,6 @@ import java.util.Collection;
 
 /**
  * SpringSecurity 中认证的用户核心信息
- *
- * @author Myles Yang
  */
 @Data
 public class UserDetail implements UserDetails, BeanConvert {

@@ -12,7 +12,7 @@
       >
         <el-select slot="prepend" v-model="searchType" style="width: 80px;" default-first-option placeholder="">
           <el-option label="名称" value="name" />
-          <el-option label="分组" value="team" />
+<!--          <el-option label="分组" value="team" />-->
         </el-select>
       </el-input>
       <el-button

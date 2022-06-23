@@ -18,8 +18,6 @@ import xyz.snwjas.blog.support.security.MyUserDetailsService;
 
 /**
  * Spring Security 配置
- *
- * @author Myles Yang
  */
 @EnableWebSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {

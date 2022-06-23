@@ -17,8 +17,6 @@ import java.util.List;
 
 /**
  * Tag Controller
- *
- * @author Myles Yang
  */
 @Validated
 @RestController("AppTagController")

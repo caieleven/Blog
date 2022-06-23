@@ -17,8 +17,6 @@ import java.time.temporal.Temporal;
 
 /**
  * Swagger 配置
- *
- * @author Myles Yang
  */
 @Configuration
 @EnableSwagger2
@@ -59,7 +57,7 @@ public class SwaggerConfig {
 				.title("MyBlog API Documentation.")
 				.description("The API documentation for MyBlog.")
 				.version("1.0.0")
-				.contact(new Contact("Myles Yang", "snwjas.xyz", "myles.yang@foxmail.com"))
+				.contact(new Contact("chen", "www.github.com/caieleven", "1939470669@qq.com"))
 				.license("MIT")
 				.licenseUrl("")
 				.build();

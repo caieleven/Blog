@@ -5,11 +5,7 @@ import org.springframework.security.core.Authentication;
 import xyz.snwjas.blog.model.vo.UserVO;
 import xyz.snwjas.blog.model.UserDetail;
 
-/**
- * User Service
- *
- * @author Myles Yang
- */
+
 public interface UserService {
 
 	/**

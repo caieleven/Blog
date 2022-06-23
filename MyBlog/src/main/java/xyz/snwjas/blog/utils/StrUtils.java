@@ -4,8 +4,6 @@ import org.apache.commons.lang3.StringUtils;
 
 /**
  * String Utils
- *
- * @author Myles Yang
  */
 public class StrUtils {
 

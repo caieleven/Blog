@@ -11,8 +11,6 @@ import java.io.Serializable;
 
 /**
  * 博客列表View Object
- *
- * @author Myles Yang
  */
 @EqualsAndHashCode(callSuper = true)
 @Data

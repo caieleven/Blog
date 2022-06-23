@@ -8,8 +8,6 @@ import java.util.*;
  * 词库上下文环境
  * <p>
  * 初始化敏感词库，将敏感词加入到HashMap中，构建DFA算法模型
- *
- * @author minghu.zhang
  */
 @SuppressWarnings({"rawtypes", "unchecked"})
 public class WordContext {

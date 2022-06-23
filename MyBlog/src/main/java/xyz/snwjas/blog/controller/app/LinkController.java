@@ -19,8 +19,6 @@ import java.util.List;
 
 /**
  * Link Controller
- *
- * @author Myles Yang
  */
 @RestController("AppLinkController")
 @RequestMapping("/api/app/link")

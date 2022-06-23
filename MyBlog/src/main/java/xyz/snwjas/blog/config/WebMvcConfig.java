@@ -28,8 +28,6 @@ import java.util.List;
 
 /**
  * WebMvc配置
- *
- * @author Myles Yang
  */
 @Configuration
 public class WebMvcConfig extends WebMvcConfigurationSupport {

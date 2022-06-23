@@ -76,17 +76,17 @@
       </el-col>
       <el-col :xs="24" :sm="6" style="padding: 0">
         <!-- 友链数量 -->
-<!--        <el-col :xs="12" :sm="24">-->
-<!--          <el-card class="box-card">-->
-<!--            <div slot="header" class="clearfix">-->
-<!--              <span class="cardName">友链</span>-->
-<!--              <router-link :to="{name:'Link'}">-->
-<!--                <el-button class="cardLink" type="text" icon="el-icon-link" />-->
-<!--              </router-link>-->
-<!--            </div>-->
-<!--            <div class="cardContent">{{ statistic.linkCount }}</div>-->
-<!--          </el-card>-->
-<!--        </el-col>-->
+        <!--        <el-col :xs="12" :sm="24">-->
+        <!--          <el-card class="box-card">-->
+        <!--            <div slot="header" class="clearfix">-->
+        <!--              <span class="cardName">友链</span>-->
+        <!--              <router-link :to="{name:'Link'}">-->
+        <!--                <el-button class="cardLink" type="text" icon="el-icon-link" />-->
+        <!--              </router-link>-->
+        <!--            </div>-->
+        <!--            <div class="cardContent">{{ statistic.linkCount }}</div>-->
+        <!--          </el-card>-->
+        <!--        </el-col>-->
         <el-col :xs="12" :sm="24">
           <el-card class="box-card">
             <div slot="header" class="clearfix">

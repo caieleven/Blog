@@ -18,8 +18,6 @@ import java.util.List;
 
 /**
  * Category Controller
- *
- * @author Myles Yang
  */
 @RestController("AppCategoryController")
 @RequestMapping("/api/app/category")

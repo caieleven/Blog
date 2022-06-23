@@ -22,8 +22,6 @@ import java.util.Map;
 
 /**
  * Index Controller
- *
- * @author Myles Yang
  */
 @RestController("AppIndexController")
 @RequestMapping("/api/app")

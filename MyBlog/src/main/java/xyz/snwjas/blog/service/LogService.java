@@ -9,11 +9,7 @@ import xyz.snwjas.blog.model.vo.LogVO;
 
 import java.util.List;
 
-/**
- * Log Service
- *
- * @author Myles Yang
- */
+
 public interface LogService {
 
 	/**

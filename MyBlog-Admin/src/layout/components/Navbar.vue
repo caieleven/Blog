@@ -5,7 +5,7 @@
     <breadcrumb class="breadcrumb-container" />
 
     <div class="right-menu">
-      <el-tooltip class="item" effect="dark" content="跳转到博客主页" placement="right-end">
+      <el-tooltip class="item" effect="dark" content="博客主页" placement="right-end">
         <a :href="options.url" target="_blank" class="to-front el-icon-s-promotion" />
       </el-tooltip>
       <el-tooltip v-if="isDev" class="item" effect="dark" content="API开发文档" placement="right-end">

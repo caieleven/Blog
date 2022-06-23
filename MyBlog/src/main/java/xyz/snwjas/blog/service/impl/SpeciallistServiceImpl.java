@@ -29,11 +29,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.stream.Collectors;
 
-/**
- * Special List Service Impl
- *
- * @author Myles Yang
- */
+
 @Service
 @Slf4j
 public class SpeciallistServiceImpl extends ServiceImpl<SpecaillistMapper, SpeciallistEntity> implements SpeciallistService {

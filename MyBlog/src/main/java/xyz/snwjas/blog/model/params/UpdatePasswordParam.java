@@ -9,8 +9,6 @@ import javax.validation.constraints.NotBlank;
 
 /**
  * Update Password Param
- *
- * @author Myles Yang
  */
 @Data
 @ApiModel("密码更新参数")

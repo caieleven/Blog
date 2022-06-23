@@ -6,8 +6,6 @@ import java.time.LocalTime;
 
 /**
  * Date Utils
- *
- * @author Myles Yang
  */
 public class DateUtils {
 

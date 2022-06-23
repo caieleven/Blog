@@ -10,8 +10,6 @@ import java.io.IOException;
 
 /**
  * File Utils
- *
- * @author Myles Yang
  */
 @Slf4j
 public class FileUtils {

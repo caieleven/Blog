@@ -2,8 +2,6 @@ package xyz.snwjas.blog.support.cache;
 
 /**
  * 自定义缓存接口
- *
- * @author Myles Yang
  */
 public interface CacheStore<K, V> {
 

@@ -2,8 +2,6 @@ package xyz.snwjas.blog.exception;
 
 /**
  * Base exception of the project.
- *
- * @author Myles Yang
  */
 public abstract class MyBlogException extends RuntimeException {
 

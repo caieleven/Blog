@@ -4,8 +4,6 @@ import com.baomidou.mybatisplus.annotation.EnumValue;
 
 /**
  * 评论状态枚举常量
- *
- * @author Myles Yang
  */
 public enum CommentStatus implements ValueEnum<Integer> {
 	/**

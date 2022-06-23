@@ -9,15 +9,15 @@
       </el-form-item>
       <el-form-item label="允许评论：" prop="allowComment">
         <el-radio-group v-model="blogData.allowComment">
-          <el-radio label="ALLOWED_AUDITING">允许 | 需要审核</el-radio>
-          <el-radio label="ALLOWED_PASSAUTO">允许 | 无需审核</el-radio>
+          <!--          <el-radio label="ALLOWED_AUDITING">允许</el-radio>-->
+          <el-radio label="ALLOWED_PASSAUTO">允许</el-radio>
           <el-radio label="UNALLOWED">不允许</el-radio>
         </el-radio-group>
       </el-form-item>
-      <el-form-item label="置顶数值：" prop="topRank">
-        <el-input-number v-model="blogData.topRank" controls-position="right" style="width: 100%" />
-        <p class="input-tips">* 值越大越靠前</p>
-      </el-form-item>
+        <el-form-item label="置顶数值：" prop="topRank">
+          <el-input-number v-model="blogData.topRank" controls-position="right" style="width: 100%" />
+          <p class="input-tips">* 值越大越靠前</p>
+        </el-form-item>
       <el-form-item label="博客分类：" prop="categoryId">
         <el-select v-model="blogData.category.id" placeholder="请选择博客分类" filterable>
           <el-option
@@ -44,10 +44,10 @@
             :value="tag.id"
           />
         </el-select>
-        <p class="input-tips">* 可以选择已有标签或输入新标签</p>
+        <p class="input-tips">选择标签</p>
       </el-form-item>
       <el-form-item label="博客摘要：" prop="summary">
-        <el-input v-model="blogData.summary" :rows="5" type="textarea" placeholder="不填写会自动生成" />
+        <el-input v-model="blogData.summary" :rows="5" type="textarea" placeholder="默认为空" />
       </el-form-item>
       <el-form-item label="博客封面：" prop="thumbnail">
         <div @click="selectAttachment">
@@ -88,7 +88,7 @@ export default {
         topRank: 0,
         category: { id: null, name: '' },
         tags: [],
-        allowComment: 'ALLOWED_AUDITING'
+        allowComment: 'ALLOWED_PASSAUTO'
       },
       usedCategoryList: [],
       tagList: [],

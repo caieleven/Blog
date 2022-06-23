@@ -24,8 +24,6 @@ import java.util.Objects;
 
 /**
  * Article Controller
- *
- * @author Myles Yang
  */
 @Validated
 @RestController("AdminBlogController")

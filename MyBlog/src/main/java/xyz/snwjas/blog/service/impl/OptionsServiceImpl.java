@@ -23,8 +23,6 @@ import java.util.Objects;
 
 /**
  * Options Service
- *
- * @author Myles Yang
  */
 @Service
 public class OptionsServiceImpl implements OptionsService {

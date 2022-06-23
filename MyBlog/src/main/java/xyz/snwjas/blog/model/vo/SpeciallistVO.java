@@ -13,8 +13,6 @@ import java.time.LocalDateTime;
 
 /**
  * Special List VO
- *
- * @author Myles Yang
  */
 @NoArgsConstructor
 @Data

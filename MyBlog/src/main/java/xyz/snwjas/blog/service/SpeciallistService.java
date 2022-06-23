@@ -11,11 +11,7 @@ import xyz.snwjas.blog.model.vo.SpeciallistVO;
 
 import java.util.List;
 
-/**
- * Log Service
- *
- * @author Myles Yang
- */
+
 public interface SpeciallistService extends IService<SpeciallistEntity> {
 
 	/**

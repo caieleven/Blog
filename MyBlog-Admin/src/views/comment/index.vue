@@ -7,7 +7,7 @@
         </el-form-item>
         <el-form-item label="评论状态：" prop="status">
           <el-select v-model="searchParams.status" style="width: 160px" placeholder="">
-            <el-option label="审核中" :value="0" />
+            <!--            <el-option label="审核中" :value="0" />-->
             <el-option label="已发布" :value="1" />
             <el-option label="回收站" :value="2" />
           </el-select>

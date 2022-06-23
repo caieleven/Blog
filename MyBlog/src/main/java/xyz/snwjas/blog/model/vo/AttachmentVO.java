@@ -17,8 +17,6 @@ import java.time.LocalDateTime;
 
 /**
  * Attachment VO
- *
- * @author Myles Yang
  */
 @Data
 @Accessors(chain = true)

@@ -10,8 +10,6 @@ import java.io.Serializable;
 
 /**
  * Option VO
- *
- * @author Myles Yang
  */
 @Data
 @Accessors(chain = true)

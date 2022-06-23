@@ -19,8 +19,6 @@ import java.util.List;
 
 /**
  * 博客列表View Object
- *
- * @author Myles Yang
  */
 @Data
 @Accessors(chain = true)

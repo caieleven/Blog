@@ -36,11 +36,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.stream.Collectors;
 
-/**
- * Attachment Service Implementation
- *
- * @author Myles Yang
- */
+
 @Service
 @Slf4j
 public class AttachmentServiceImpl implements AttachmentService {

@@ -14,8 +14,6 @@ import javax.validation.constraints.NotEmpty;
 
 /**
  * Comment VO
- *
- * @author Myles Yang
  */
 @EqualsAndHashCode(callSuper = true)
 @Data

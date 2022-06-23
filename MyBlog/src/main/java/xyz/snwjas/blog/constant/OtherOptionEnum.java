@@ -1,10 +1,6 @@
 package xyz.snwjas.blog.constant;
 
-/**
- * todo
- *
- * @author Myles Yang
- */
+
 public enum OtherOptionEnum implements OptionEnum {
 
 	URL_FAVICON_PARSER("url_favicon_parser", String.class, ""),

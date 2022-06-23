@@ -6,11 +6,7 @@ import xyz.snwjas.blog.model.vo.TagVO;
 import java.util.List;
 import java.util.Set;
 
-/**
- * Tag Service
- *
- * @author Myles Yang
- */
+
 public interface TagService {
 
 	/**

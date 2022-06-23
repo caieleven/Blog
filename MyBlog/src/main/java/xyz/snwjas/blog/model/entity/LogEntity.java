@@ -15,8 +15,6 @@ import xyz.snwjas.blog.model.enums.LogType;
  * <p>
  * 日志
  * </p>
- *
- * @author Myles Yang
  */
 @Data
 @EqualsAndHashCode(callSuper = true)

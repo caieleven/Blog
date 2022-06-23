@@ -9,8 +9,6 @@ import xyz.snwjas.blog.model.enums.CommentStatus;
 
 /**
  * Common Search Param
- *
- * @author Myles Yang
  */
 @EqualsAndHashCode(callSuper = true)
 @Data

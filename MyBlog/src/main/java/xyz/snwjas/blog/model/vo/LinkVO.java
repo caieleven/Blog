@@ -15,8 +15,6 @@ import java.io.Serializable;
 
 /**
  * Link VO
- *
- * @author Myles Yang
  */
 @Data
 @Accessors(chain = true)

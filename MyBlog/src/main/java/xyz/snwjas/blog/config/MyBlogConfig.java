@@ -12,8 +12,6 @@ import java.util.concurrent.ThreadPoolExecutor;
 
 /**
  * 博客配置
- *
- * @author Myles Yang
  */
 @Configuration
 @Slf4j

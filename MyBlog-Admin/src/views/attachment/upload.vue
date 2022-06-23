@@ -1,24 +1,24 @@
 <template>
   <div>
-    <div style="display: flex;align-items: center;margin-bottom: 20px;">
-      <span>上传至分组：</span>
-      <el-select
-        v-model="team"
-        style="width:calc(100% - 85px);"
-        size="mini"
-        filterable
-        allow-create
-        default-first-option
-      >
-        <el-option label="默认分组" value="" style="font-style: italic" />
-        <el-option
-          v-for="(item,index) in teamList"
-          :key="index"
-          :label="item"
-          :value="item"
-        />
-      </el-select>
-    </div>
+    <!--    <div style="display: flex;align-items: center;margin-bottom: 20px;">-->
+    <!--      <span>上传至分组：</span>-->
+    <!--      <el-select-->
+    <!--        v-model="team"-->
+    <!--        style="width:calc(100% - 85px);"-->
+    <!--        size="mini"-->
+    <!--        filterable-->
+    <!--        allow-create-->
+    <!--        default-first-option-->
+    <!--      >-->
+    <!--        <el-option label="默认分组" value="" style="font-style: italic" />-->
+    <!--        <el-option-->
+    <!--          v-for="(item,index) in teamList"-->
+    <!--          :key="index"-->
+    <!--          :label="item"-->
+    <!--          :value="item"-->
+    <!--        />-->
+    <!--      </el-select>-->
+    <!--    </div>-->
     <el-upload
       ref="upload"
       drag
@@ -33,7 +33,7 @@
       <i class="el-icon-upload" />
       <div class="el-upload__text">将文件拖到此处，或<em>点击上传</em></div>
       <div slot="tip" class="el-upload__tip" style="text-align:right;">
-        可上传任何类型文件；单个文件大小不超过10MB
+        文件大小不超过10MB
       </div>
     </el-upload>
   </div>

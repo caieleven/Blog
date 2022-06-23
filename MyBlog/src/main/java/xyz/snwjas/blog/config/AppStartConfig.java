@@ -24,8 +24,6 @@ import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * 应用启动后的配置
- *
- * @author Myles Yang
  */
 @Configuration
 @Slf4j

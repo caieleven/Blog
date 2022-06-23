@@ -2,8 +2,6 @@ package xyz.snwjas.blog.support.wordfilter;
 
 /**
  * 结束类型定义
- *
- * @author minghu.zhang
  **/
 public enum EndType {
 

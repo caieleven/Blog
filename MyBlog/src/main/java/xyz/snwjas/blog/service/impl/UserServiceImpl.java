@@ -20,11 +20,6 @@ import xyz.snwjas.blog.utils.IPUtils;
 import javax.annotation.Resource;
 import java.util.Objects;
 
-/**
- * User Service Impl.
- *
- * @author Myles Yang
- */
 @Service
 public class UserServiceImpl implements UserService {
 

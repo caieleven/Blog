@@ -15,17 +15,17 @@
             />
           </el-select>
         </el-form-item>
-        <el-form-item label="分组：" prop="team">
-          <el-select v-model="searchParams.team" style="width: 200px" filterable default-first-option>
-            <el-option label="默认分组" value="" style="font-style: italic" />
-            <el-option
-              v-for="(item,index) in teamList"
-              :key="index"
-              :label="item"
-              :value="item"
-            />
-          </el-select>
-        </el-form-item>
+        <!--        <el-form-item label="分组：" prop="team">-->
+        <!--          <el-select v-model="searchParams.team" style="width: 200px" filterable default-first-option>-->
+        <!--            <el-option label="默认分组" value="" style="font-style: italic" />-->
+        <!--            <el-option-->
+        <!--              v-for="(item,index) in teamList"-->
+        <!--              :key="index"-->
+        <!--              :label="item"-->
+        <!--              :value="item"-->
+        <!--            />-->
+        <!--          </el-select>-->
+        <!--        </el-form-item>-->
         <el-form-item>
           <el-button type="primary" @click="getAttachmentList">查 询</el-button>
           <el-button @click="resetSearchParams('searchParamsForm')">重 置</el-button>
@@ -57,7 +57,7 @@
           <div style="text-align:right;margin-top: 10px;">
             <el-button type="primary" size="small" @click="batchMoveTeam">保存</el-button>
           </div>
-          <el-button slot="reference" type="info" size="small" icon="el-icon-folder">分组</el-button>
+          <!--          <el-button slot="reference" type="info" size="small" icon="el-icon-folder">分组</el-button>-->
         </el-popover>
         <el-popconfirm
           placement="top-start"

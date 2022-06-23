@@ -11,8 +11,6 @@ import java.lang.annotation.Target;
 
 /**
  * 操作记录
- *
- * @author Myles Yang
  */
 @Target({ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)

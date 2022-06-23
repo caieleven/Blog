@@ -8,8 +8,6 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * <p>
  * 友链 Mapper 接口
  * </p>
- *
- * @author Myles Yang
  */
 public interface LinkMapper extends BaseMapper<LinkEntity> {
 

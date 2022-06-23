@@ -129,9 +129,8 @@ export default {
     },
     // editor中的上传图片功能
     addImage(pos, $file) {
-      const formdata = new FormData()
+      var formdata = new FormData()
       formdata.append('file', $file)
-      console.log(formdata)
       uploadAttachment(formdata).then(resp => {
         this.$message.success(resp.message)
         const url = this.baseUrl + resp.data.path

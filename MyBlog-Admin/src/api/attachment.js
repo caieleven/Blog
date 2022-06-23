@@ -41,6 +41,7 @@ export const uploadUrl = `${process.env.VUE_APP_BASE_API}${api_prefix}/upload`
 
 // 上传附件
 export function uploadAttachment(data) {
+  console.log(data)
   return request({
     url: `${api_prefix}/upload`,
     method: 'post',

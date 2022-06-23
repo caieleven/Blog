@@ -24,15 +24,15 @@
           <el-button slot="append" icon="el-icon-picture" @click="selectFaviconDrawer=true" />
         </el-input>
       </el-form-item>
-      <el-form-item label="页脚信息：" prop="footer">
-        <el-input
-          v-model="options.footer"
-          :rows="5"
-          type="textarea"
-          placeholder="可填入HTML文本"
-          @blur.native.capture="addUpdateOption('footer')"
-        />
-      </el-form-item>
+        <!--      <el-form-item label="页脚信息：" prop="footer">-->
+        <!--        <el-input-->
+        <!--          v-model="options.footer"-->
+        <!--          :rows="5"-->
+        <!--          type="textarea"-->
+        <!--          placeholder="可填入HTML文本"-->
+        <!--          @blur.native.capture="addUpdateOption('footer')"-->
+        <!--        />-->
+        <!--      </el-form-item>-->
       <el-form-item>
         <el-button type="primary" @click="updateOption">保 存</el-button>
       </el-form-item>

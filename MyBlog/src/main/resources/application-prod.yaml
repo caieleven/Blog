@@ -7,7 +7,7 @@ spring:
   profiles: prod
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/myblogdb?allowPublicKeyRetrieval=true&useSSL=false&useUnicode=true&characterEncoding=UTF8&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://139.224.62.56:3306/myblogdb?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=GMT%2B8&zeroDateTimeBehavior=convertToNull
     username: root
     password: QWEasd123
   servlet:

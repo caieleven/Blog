@@ -64,7 +64,7 @@
           <el-tab-pane label="文章目录">
             <div id="post-toc" />
           </el-tab-pane>
-          <el-tab-pane label="站点概览">
+          <el-tab-pane label="博主信息">
             <v-profile />
           </el-tab-pane>
         </el-tabs>
@@ -91,9 +91,9 @@ export default {
       blog: {},
       imgList: [], // 文章内容图片
       curImg: '', // 当前点击查看的图片
-      isViewImg: false, // 防止dom更新滚动
+      isViewImg: false, // 防止滚动
       currentSelectedToc: undefined, // 当前选择的目录dom元素
-      isScrollChangeToc: false, // 检测滚动到那个dom,
+      isScrollChangeToc: false, // 检测滚动
       commentList: [],
       commentTotal: 0,
       commentCurrentPage: 1,

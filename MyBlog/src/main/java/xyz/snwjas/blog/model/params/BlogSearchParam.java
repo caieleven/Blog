@@ -9,8 +9,6 @@ import xyz.snwjas.blog.model.enums.BlogStatus;
 
 /**
  * Blog Search Param
- *
- * @author Myles Yang
  */
 @EqualsAndHashCode(callSuper = true)
 @Data

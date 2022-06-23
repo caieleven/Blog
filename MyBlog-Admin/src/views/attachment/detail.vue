@@ -25,11 +25,11 @@
         {{ data.width + ' x ' + data.height }}
       </el-form-item>
       <el-divider />
-      <el-form-item label="附件分组：">
-        <span v-if="data.team">{{ data.team }}</span>
-        <span v-else style="font-style: italic;">默认分组</span>
-      </el-form-item>
-      <el-divider />
+      <!--      <el-form-item label="附件分组：">-->
+      <!--        <span v-if="data.team">{{ data.team }}</span>-->
+      <!--        <span v-else style="font-style: italic;">默认分组</span>-->
+      <!--      </el-form-item>-->
+      <!--      <el-divider />-->
       <el-form-item label="上传时间：">{{ data.createTime }}</el-form-item>
       <el-divider />
       <el-form-item label="附件链接：">

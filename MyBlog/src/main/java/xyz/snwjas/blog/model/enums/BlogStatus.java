@@ -6,8 +6,6 @@ import com.fasterxml.jackson.annotation.JsonValue;
 
 /**
  * 博客状态枚举常量
- *
- * @author Myles Yang
  */
 public enum BlogStatus implements ValueEnum<Integer> {
 	/**

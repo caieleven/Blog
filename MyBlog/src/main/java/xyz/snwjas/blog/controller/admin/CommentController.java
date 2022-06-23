@@ -24,8 +24,6 @@ import javax.validation.constraints.NotNull;
 
 /**
  * Comment Controller
- *
- * @author Myles Yang
  */
 @Validated
 @RestController("AdminCommentController")

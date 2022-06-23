@@ -16,8 +16,6 @@ import java.util.List;
 
 /**
  * Comment VO
- *
- * @author Myles Yang
  */
 @Data
 @Accessors(chain = true)

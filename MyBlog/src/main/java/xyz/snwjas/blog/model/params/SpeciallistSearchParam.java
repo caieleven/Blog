@@ -11,8 +11,6 @@ import java.util.List;
 
 /**
  * Special List Search Param
- *
- * @author Myles Yang
  */
 @EqualsAndHashCode(callSuper = true)
 @Data

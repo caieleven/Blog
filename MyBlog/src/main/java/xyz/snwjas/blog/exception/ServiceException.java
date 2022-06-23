@@ -5,8 +5,6 @@ import xyz.snwjas.blog.constant.RS;
 
 /**
  * 服务异常
- *
- * @author Myles Yang
  */
 public class ServiceException extends MyBlogException {
 

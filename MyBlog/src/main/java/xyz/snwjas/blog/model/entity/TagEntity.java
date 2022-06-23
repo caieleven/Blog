@@ -14,8 +14,6 @@ import lombok.experimental.Accessors;
  * <p>
  * 标签
  * </p>
- *
- * @author Myles Yang
  */
 @Data
 @EqualsAndHashCode(callSuper = true)

@@ -17,11 +17,7 @@ import javax.annotation.Resource;
 import java.util.*;
 import java.util.stream.Collectors;
 
-/**
- * Tag Service
- *
- * @author Myles Yang
- */
+
 @Service
 public class TagServiceImpl implements TagService {
 

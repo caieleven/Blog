@@ -4,8 +4,6 @@ import java.util.List;
 
 /**
  * 敏感词标记
- *
- * @author minghu.zhang
  */
 public class FlagIndex {
 

@@ -56,7 +56,7 @@
               </div>
             </div>
             <div class="publish publish-btn">
-              <button class="btn" @click="doSend(0)">发送</button>
+              <button class="btn" @click="doSend(0)">发表</button>
               <button class="btn btn-cancel" @click="cancel(0)">取消</button>
             </div>
           </div>
@@ -141,7 +141,7 @@
       <div v-for="(ritem,rindex) in item.childrenList" :key="rindex" class="children">
         <div class="reply" />
         <div :id="`comment-${ritem.id}`" class="content">
-
+          <!--评论者信息-->
           <div v-if="showAvatar" class="comment-f avatar">
             <el-avatar :size="46" :src="getAvatar(ritem.avatar)" />
           </div>

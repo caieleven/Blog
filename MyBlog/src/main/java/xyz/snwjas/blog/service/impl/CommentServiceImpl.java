@@ -34,11 +34,7 @@ import java.util.Set;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 
-/**
- * Comment Service
- *
- * @author Myles Yang
- */
+
 @Service
 public class CommentServiceImpl implements CommentService {
 
@@ -194,8 +190,8 @@ public class CommentServiceImpl implements CommentService {
 			userAgent = Objects.isNull(userAgent) ? "" : userAgent;
 			commentEntity.setUserAgent(userAgent);
 
-			String ipAddress = IPUtils.getIpAddress(request);
-			commentEntity.setIpAddress(IPUtils.ipv4ToInt(ipAddress));
+//			String ipAddress = IPUtils.getIpAddress(request);
+//			commentEntity.setIpAddress(IPUtils.ipv4ToInt(ipAddress));
 
 			// 删除HTML标签，转换换行
 			String content = vo.getContent()
